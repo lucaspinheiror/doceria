@@ -1,1 +1,1 @@
-# Site de uma docerie de Donuts
+# Site de uma doceria de Donuts
