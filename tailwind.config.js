@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    './index.html',
+    "./src/**/*.{html,js}",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -9,13 +12,10 @@ module.exports = {
         
       }, 
       backgroundImage: {
-        "hero": "url('/src/img/donut-hero.jpg')",
+        "hero": "url('img/donut-hero.jpg')",
         'background-escuro': '#353FBA',
       },
-      colors: {
-        // 'my-font-escuro': '#263A8D',
-        // 'my-font-claro': '#',
-      },
+
     },
   },
   plugins: [],

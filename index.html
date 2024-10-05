@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,11 +16,12 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link  rel="stylesheet" href="./src/output.css">
 
     <title>Document</title>
 </head>
 <body>
-    <header class="w-full h-96 bg-hero bg-cover bg-left-bottom md:bg-center xl:h-[40rem]">
+    <header  style="background-image: url('./img/donut-hero.jpg');" class="w-full h-96 bg-cover bg-left-bottom md:bg-center xl:h-[40rem]">
         <nav class="flex justify-between items-center px-3 py-3 relative">
             <h1 class="font-pacifico font-medium text-2xl text-white">HappyCandy</h1>
             <i class="fa-solid fa-bars cursor-pointer text-xl text-white lg:invisible" id="btnAbrirMenu"></i>
@@ -69,7 +71,7 @@
             </section>
 
             <!-- Background img 1 -->
-            <section class="bg-[url('/src/img/donut-azul.jpg')] bg-cover bg-center h-[501.1px] md:col-span-2 xl:h-[600px]">
+            <section style="background-image: url('./img/donut-azul.jpg');" class="bg-cover bg-center h-[501.1px] md:col-span-2 xl:h-[600px]">
             </section>
         </div>
 
@@ -83,10 +85,10 @@
 
         <div class="md:grid grid-cols-2">
             <!-- Background img 2 -->
-            <section class="bg-[url('/src/img/donut-choco.jpg')] bg-cover h-[501.1px] bg-bottom hidden md:inline xl:h-[600px] xl:bg-center">
+            <section style="background-image: url('./img/donut-roxo.jpg');" class="bg-cover h-[501.1px] bg-bottom hidden md:inline xl:h-[600px] xl:bg-center">
             </section>
             <!-- Background img 3 -->
-            <section class="bg-[url('/src/img/donuts-empilhados.jpg')] bg-cover h-[501.1px] bg-right-bottom xl:h-[600px] xl:bg-top">
+            <section style="background-image: url('./img/donuts-empilhados.jpg');" class="bg-cover h-[501.1px] bg-right-bottom xl:h-[600px] xl:bg-top">
             </section>
         </div>
 
@@ -95,13 +97,13 @@
         <section class="px-5 py-20">
             <p class="text-3xl font-bold mb-10 md:text-center xl:text-4xl">Siga-nos no Instagram! <span class="text-blue-800">@hppcandy</span></p>
 
-            <div class="grid grid-cols-2 grid-rows-2 mx-auto max-w-[800px] md:grid-cols-3">
-                <img src="img/donut-azul.jpg" class="hidden md:inline" alt="">
-                <img src="img/donut-azul.jpg" class="hidden md:inline" alt="">
-                <img src="img/donut-azul.jpg"  alt="">
-                <img src="img/donut-azul.jpg"  alt="">
-                <img src="img/donut-azul.jpg"  alt="">
-                <img src="img/donut-azul.jpg"  alt="">
+            <div class="grid grid-cols-2 mx-auto md:h-[400px] max-w-[1000px] md:grid-cols-3">
+                <img src="img/donut-roxo.jpg" class="hidden md:inline" alt="">
+                <img src="img/donuts-empilhados.jpg" class="hidden md:inline" alt="">
+                <img src="img/donuts-coloridos.jpg"  alt="">
+                <img src="img/donuts-empilhados.jpg"  alt="">
+                <img src="img/donuts-coloridos.jpg"  alt="">
+                <img src="img/donut-hero.jpg"  alt="">
             </div>
         </section>
 
