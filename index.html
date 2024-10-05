@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+    <!-- Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" 
+    rel="stylesheet">
+
+    <!-- Pacifico -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="w-full h-96 bg-hero bg-cover bg-left-bottom md:bg-center xl:h-[40rem]">
+        <nav class="flex justify-between items-center px-3 py-3 relative">
+            <h1 class="font-pacifico font-medium text-2xl text-white">HappyCandy</h1>
+            <i class="fa-solid fa-bars cursor-pointer text-xl text-white lg:invisible" id="btnAbrirMenu"></i>
+
+            <ul class="fixed -right-1/2 top-0  h-screen w-2/4 bg-gray-800 bg-opacity-10 backdrop-blur-sm pt-5 text-center text-white" id="menu">
+                <li><i class="fa-solid fa-xmark mb-3 cursor-pointer text-xl text-white" id="btnFecharMenu"></i></li>
+                <li><a href="" class="w-full block hover:bg-gray-400 hover:bg-opacity-10 hover:backdrop-blur-lg py-4 transition duration-300 ease-in-out">Lorem</a></li>
+                <li><a href="" class="w-full block hover:bg-gray-400 hover:bg-opacity-10 hover:backdrop-blur-lg py-4 transition duration-300 ease-in-out">Lorem</a></li>
+                <li><a href="" class="w-full block hover:bg-gray-400 hover:bg-opacity-10 hover:backdrop-blur-lg py-4 transition duration-300 ease-in-out">Lorem</a></li>
+                <li><a href="" class="w-full block hover:bg-gray-400 hover:bg-opacity-10 hover:backdrop-blur-lg py-4 transition duration-300 ease-in-out">Lorem</a></li>
+            </ul>
+
+            <ul class="hidden lg:flex gap-24 mr-10 xl:mr-32">
+                <li><a href="#" class="hover:bg-gray-100 hover:bg-opacity-20 hover:backdrop-blur-lg transition duration-200 px-6 py-2 rounded-sm">Lorem</a></li>
+                <li><a href="#" class="hover:bg-gray-100 hover:bg-opacity-20 hover:backdrop-blur-lg transition duration-200 px-6 py-2 rounded-sm">Lorem</a></li>
+                <li><a href="#" class="hover:bg-gray-100 hover:bg-opacity-20 hover:backdrop-blur-lg transition duration-200 px-6 py-2 rounded-sm">Lorem</a></li>
+                <li><a href="#" class="hover:bg-gray-100 hover:bg-opacity-20 hover:backdrop-blur-lg transition duration-200 px-6 py-2 rounded-sm">Lorem</a></li>
+            </ul>
+        </nav>
+        <div class="flex flex-col justify-center items-center h-full">
+            <p class="font-poppins text-yellow-100 font-bold xl:text-2xl">Bem-vindo ao mundo doce do</p>
+            <h1 class="font-pacifico text-4xl mb-20 text-yellow-100 font-bold md:text-6xl xl:text-8xl">HappyCandy</h1>
+        </div>
+        <!-- <nav>
+            <ul>
+                <li><a href="#" class="font-pacifico">a</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>  -->
+    </header>
+
+    <!-- Main -->
+     <main>
+        <div class="md:grid md:grid-cols-4 xl:grid-cols-5 xl:h-[600px]">
+            <section class="bg-blue-50 px-5 py-20 md:col-span-2 xl:col-span-3 xl:px-32  xl:pt-28">
+                <div class="max-w-[590px] mx-auto">
+                    <h1 class="text-3xl font-bold leading-relaxed xl:text-4xl">Do nosso forno, <span class="text-yellow-400">para sua felicidade</span></h1>
+                    <p class="mt-8">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, eos recusandae sed hic quidem repellendus ducimus.
+                    </p>
+                    <p class="mt-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam esse praesentium, molestiae provident aliquid dolores quidem eum consequuntur tempore, amet atque omnis.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Background img 1 -->
+            <section class="bg-[url('/src/img/donut-azul.jpg')] bg-cover bg-center h-[501.1px] md:col-span-2 xl:h-[600px]">
+            </section>
+        </div>
+
+        <section class="bg-white px-5 py-20 md:py-32">
+            <h1 class="text-3xl text-blue-800 font-bold text-center xl:text-4xl">Apenas os melhores ingredientes</h1>
+            <div class="max-w-[720px] mx-auto">
+                <p class="mt-8 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eum, cumque nihil eveniet officiis dignissimos, rerum, earum voluptates illo voluptatibus.</p>
+            </div>
+            <button class="block bg-blue-800 text-white mx-auto my-6 px-10 py-2 font-bold">Saiba mais</button>
+        </section>
+
+        <div class="md:grid grid-cols-2">
+            <!-- Background img 2 -->
+            <section class="bg-[url('/src/img/donut-choco.jpg')] bg-cover h-[501.1px] bg-bottom hidden md:inline xl:h-[600px] xl:bg-center">
+            </section>
+            <!-- Background img 3 -->
+            <section class="bg-[url('/src/img/donuts-empilhados.jpg')] bg-cover h-[501.1px] bg-right-bottom xl:h-[600px] xl:bg-top">
+            </section>
+        </div>
+
+        <!-- Galeria -->
+
+        <section class="px-5 py-20">
+            <p class="text-3xl font-bold mb-10 md:text-center xl:text-4xl">Siga-nos no Instagram! <span class="text-blue-800">@hppcandy</span></p>
+
+            <div class="grid grid-cols-2 grid-rows-2 mx-auto max-w-[800px] md:grid-cols-3">
+                <img src="img/donut-azul.jpg" class="hidden md:inline" alt="">
+                <img src="img/donut-azul.jpg" class="hidden md:inline" alt="">
+                <img src="img/donut-azul.jpg"  alt="">
+                <img src="img/donut-azul.jpg"  alt="">
+                <img src="img/donut-azul.jpg"  alt="">
+                <img src="img/donut-azul.jpg"  alt="">
+            </div>
+        </section>
+
+
+        <!-- Formulário -->
+        <section class="bg-blue-800 px-5 py-20">
+            <p class="text-white text-center mb-10">Ganhe 5% de desconto em itens do menu ao se inscrever em nossa lista de compras!</p>
+
+            
+           
+                
+            <div class="max-w-[500px] mx-auto">               
+                <div class="flex flex-col gap-2">
+                    <label class="text-white font-bold">E-mail:</label>
+                    <input type="text" placeholder="Insira seu e-mail" class="py-3 px-2 rounded outline-none">
+                </div>
+                <button class="bg-yellow-400 mt-3 px-8 py-3 rounded text-white font-bold">Logar</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="bg-yellow-400 px-5 py-8 md:pb-20">
+
+            <h1 class="text-5xl font-pacifico font-bold text-center text-white mb-6 md:mb-12">HC</h1>
+
+            <div class="flex flex-col gap-5 md:flex-row md:justify-center md:gap-20 md:text-center">
+                <div>
+                    <p class="text-blue-800 font-bold">Lorem</p>
+                    <p>Lorem Lorem</p>
+                    <p>Lorem Lorem</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-800 font-bold">Lorem</p>
+                    <p>Lorem Lorem</p>
+                    <p>Lorem Lorem</p>
+                </div>
+
+                <div>
+                    <p class="text-blue-800 font-bold">Lorem</p>
+                    <p>Lorem Lorem</p>
+                    <p>Lorem Lorem</p>
+                </div>
+            </div>
+        </section>
+     
+     </main>
+
+     <footer class="py-10 bg-blue-800">
+        <p class="text-center text-white">ⓒ Todos os direitos reservados</p>
+    </footer>
+
+
+     <script>
+        const btnAbrirMenu = document.querySelector('#btnAbrirMenu');
+        const btnFecharMenu = document.querySelector('#btnFecharMenu');
+        const menu = document.querySelector('#menu');
+
+        btnAbrirMenu.addEventListener('click', function(){
+
+            menu.classList.remove('-right-1/2');
+            menu.classList.add('right-0');
+          
+        });
+
+        btnFecharMenu.addEventListener('click', function(){
+
+            menu.classList.remove('right-0');
+            menu.classList.add('-right-1/2');
+
+        });
+      
+        
+
+        
+     </script>
+     
+     <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+</body>
+</html> 
